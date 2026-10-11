@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NBM Gaming Store - Free Fire/Pubg Diamond diamond top-up packages.">
+  <title>NBM Gaming Store | Game Top-Up</title>
+    <!-- Google verification -->
+    <meta name="google-site-verification" content="Xh0D9DBxqdB3k8qq7_cwfzQ5Jb1Gsi_m3Dora0acbMs" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="#home">FX <span>GAMING STORE</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#packages">Packages</a>
+      <a href="#order">Order</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <p class="tag">WELCOME TO FX GAMING STORE</p>
+    <h1>LEVEL UP YOUR <span>GAME!</span></h1>
+    <p>Choose your Free Fire diamond package and send your order.</p>
+    <a class="btn" href="#packages">Explore Packages</a>
+  </section>
+
+  <section id="packages">
+    <h2>Free Fire <span>Diamond Packages</span></h2>
+    <p class="subtitle">Select your desired package.</p>
+    <div id="packageGrid" class="grid"></div>
+  </section>
+
+  <section id="order">
+    <h2>Place Your <span>Order</span></h2>
+    <form id="orderForm">
+      <label for="playerId">Free Fire Player ID</label>
+      <input id="playerId" required placeholder="Enter Player ID">
+
+      <label for="server">Server</label>
+      <select id="server" required>
+        <option value="">Choose your server</option>
+        <option>Nepal</option>
+        <option>Bangladesh (BD)</option>
+        <option>indonesia</option>
+      </select>
+
+      <label for="packageSelect">Diamond Package</label>
+      <select id="packageSelect" required>
+        <option value="">Select a package above</option>
+      </select>
+
+      <label for="customerName">Game Id name
+      </label>
+      <input id="customerName" placeholder="Enter your name">
+
+      <button class="btn" type="submit">Order on WhatsApp</button>
+      <p id="message"></p>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact <span>FX Gaming Store</span></h2>
+    <p>Instagram: @fx_gaming_store</p>
+    <p>WhatsApp: 9713040905</p>
+    <a class="btn" href="https://www.instagram.com/fx_gaming_store/" target="_blank" rel="noopener">Visit Instagram</a>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> FX Gaming Store</p>
+    <p>Confirm the server, price and availability before payment.</p>
+    <small>Not affiliated with Garena. Orders are not delivered automatically.</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
